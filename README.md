@@ -1,59 +1,45 @@
-# 🍽️ Omnifood
+# Airport Landing Page
 
-A landing page for **Omnifood** — a fictional food subscription service that delivers healthy, personalized meals every day of the year. Built as a front-end practice project using pure HTML and CSS.
+A landing page template built with plain HTML5 and CSS3. It's designed for a service/creative agency style business and includes a hero banner, services, portfolio, stats, testimonials, skills, pricing, and a newsletter subscribe section.
 
-## 📖 About
+## Features
 
-Omnifood is a marketing/landing page showcasing:
-- A hero section with a call-to-action and social proof
-- A "How it works" 3-step process section
-- A meals showcase with dietary tags and ratings
-- Customer testimonials
-- Pricing plans (Starter & Complete)
-- A signup call-to-action form
-- A multi-column footer
+- **Sticky/overlay navigation** with logo, menu links, search icon, and a mobile hamburger menu
+- **Hero/landing section** with full-screen background image, overlay, and slide bullets
+- **Services section** in a 2-column responsive grid with icons
+- **Design/about section** with a background image and feature list
+- **Portfolio gallery** with filter tabs (All / App / Photo / Web / Print) and hover captions
+- **Stats section** with icon-based counters over a background image
+- **Testimonials & Skills section** with client quotes and animated progress bars
+- **Pricing plans** in a 4-column responsive grid with a call-to-action button
+- **Newsletter subscribe** section with an email form
 
-## 🛠️ Built With
-
-- **HTML5** – semantic page structure
-- **CSS3** – custom styling with CSS Grid & Flexbox
-- **[Ionicons](https://ionic.io/ionicons)** – icon library (loaded via CDN)
-
-No frameworks, build tools, or JavaScript libraries — just clean HTML & CSS.
-
-## 📁 Project Structure
+## Project Structure
 
 ```
-omnifood/
-├── index.html
-├── css/
-│   ├── style.css      # Base styles, hero section, header/nav, "how it works"
-│   └── style2.css     # Meals, testimonials, pricing, CTA, footer
-└── img/
-    ├── logo.png
-    ├── first.jpg
-    ├── second.jpg
-    ├── third.jpg
-    ├── four.jpg
-    ├── five.jpg
-    ├── six.jpg
-    ├── people1.jpg
-    ├── people2.jpg
-    ├── people3.jpg
-    ├── people4.jpg
-    └── people5.jpg
+.
+├── index.html      # Main HTML markup
+├── style.css       # All styling and responsive rules
+└── img/            # Image assets (referenced but not included)
+    ├── ......
+
 ```
 
-## 📐 Design System
+## Tech Stack
 
-The stylesheet follows a consistent spacing and typography scale:
+- **HTML5** — semantic structure
+- **CSS3** — Flexbox, CSS Grid, pseudo-elements, and media queries (no frameworks or preprocessors)
+- **Inline SVG** icons (no icon library dependency)
 
-- **Spacing:** 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 px
-- **Font sizes:** 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 px
-- **Primary color:** `#e67e22` (orange)
-- **Background accent:** `#fdf2e9`
-- **Text color:** `#555`
+## Design System
 
-## 📄 License
+Defined at the top of `style.css` as a reference scale:
 
-This project is for portfolio purposes. Feel free to fork and build on it.
+- **Spacing:** 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 (px)
+- **Font sizes:** 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 (px)
+- Base `html` font-size is set to `62.5%` so `1rem = 10px` throughout the stylesheet.
+
+
+## License
+
+No license specified. Add one (e.g. MIT) if you plan to share or reuse this project publicly.
