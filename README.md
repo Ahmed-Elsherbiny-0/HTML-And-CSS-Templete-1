@@ -38,8 +38,3 @@ Defined at the top of `style.css` as a reference scale:
 - **Spacing:** 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 (px)
 - **Font sizes:** 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 (px)
 - Base `html` font-size is set to `62.5%` so `1rem = 10px` throughout the stylesheet.
-
-
-## License
-
-No license specified. Add one (e.g. MIT) if you plan to share or reuse this project publicly.
